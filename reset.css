@@ -1,0 +1,71 @@
+/* 
+Title:		Reset default browser styles
+Author: 	Caroline Hill
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+  
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}  
+  
+a img, :link img, :visited img {
+  border: 0;
+}
+  
+/* Common functions */
+.floatLeft {
+  float: left;
+  padding: .5em .5em .5em 0;
+}
+
+.floatRight {
+  float: right;
+  padding: .5em 0 .5em .5em;
+}
+
+.hide { display:none; }
+
+/* Clearfix */
+  
+.clearfix { overflow: hidden; }
+
+/* Flexible width */
+
+.width20 { width: 19.999%; }
+.width25 { width: 24.999%; }
+.width33 { width: 33.333%; }
+.width50 { width: 49.999%; }
+.width66 { width: 66.666%; }
+.width75 { width: 74.999%; }
+.width100 { width: 100%; }
