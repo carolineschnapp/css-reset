@@ -44,12 +44,12 @@ a img, :link img, :visited img {
 }
   
 /* Common functions */
-.floatLeft {
+.float-left {
   float: left;
   padding: .5em .5em .5em 0;
 }
 
-.floatRight {
+.float-right {
   float: right;
   padding: .5em 0 .5em .5em;
 }
